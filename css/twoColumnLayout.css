@@ -1,0 +1,94 @@
+html {
+  overflow: hidden;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  height: 60px;
+  left: 0;
+  right: 0;
+  background: #DDD;
+  text-align: center;
+}
+.navbar-title {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.content {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #BBB;
+  overflow: auto;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.col1,
+.col2 {
+  width: 50%;
+  padding: 10px;
+}
+
+.col1 {
+}
+.col2 {
+}
+
+.item {
+  background: white;
+  margin-bottom: 20px;
+  height: 200px;
+  padding: 10px;
+  border: solid black 1px;
+}
+.item-top {
+  /*border: solid black 1px;*/
+  height: 30%;
+}
+.item-bottom {
+  /*border: solid black 1px;*/
+  height: 70%;
+  overflow: hidden;
+  max-height: 112px;
+  margin-top: 10px;
+}
+.item-top {
+  display: flex;
+}
+
+.item-title {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-left: 15px;  
+}
+.item-image {
+  border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+  .col1,
+  .col2 {
+    width: 100%;
+  }  
+}
+
+/* @media (min-width: 100px) */
+/* If screen size is 100px or greater  */
+
+/* @media (max-width: 100px) */
+/* If screen size is 100px or less */
+
+/* @media (min-width: 100px) and (max-width: 1000px) */
+/* If screen size is between 100px and 1000px, inclusive */
+

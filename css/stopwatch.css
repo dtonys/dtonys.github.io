@@ -1,0 +1,27 @@
+.container {
+  width: 600px;
+  text-align: center;
+}
+.stopwatch-container {
+  margin: auto;
+  text-align: center;
+}
+.stopwatch {
+  font-size: 50px;
+}
+.count-wrap {
+  display: flex;
+  align-items: baseline;
+}
+.count {
+  padding: 10px;
+  font-size: 40px;
+  width: 50%;
+  text-align: right;
+}
+.count-cs {
+  padding: 10px;
+  font-size: 15px;
+  width: 50%;
+  text-align: left;
+}

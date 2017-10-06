@@ -1,0 +1,14 @@
+/* box-sizing border box for all elements */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* clearfix for floated elements */
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}

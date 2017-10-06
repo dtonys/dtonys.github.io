@@ -1,0 +1,18 @@
+.container {
+  margin-top: 40px;
+}
+
+.search-btn {
+  width: 100%;
+  cursor: pointer;
+}
+
+.result-item {
+  padding: 10px;
+  background: #EEE;
+  height: 600px;
+}
+
+.result-item:hover {
+  background: #DDD;
+}
